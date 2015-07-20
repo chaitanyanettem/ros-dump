@@ -52,6 +52,7 @@ include_directories(
 ## Declare a cpp executable
 add_executable(obstacle_avoidance_node
 src/basic_shape_detector.cpp
+src/obstacle_avoidance.cpp
 )
 
 ## Add cmake target dependencies of the executable/library
