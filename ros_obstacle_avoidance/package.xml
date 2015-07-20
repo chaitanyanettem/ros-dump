@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package>
+  <name>obstacle_avoidance</name>
+  <version>1.0.0</version>
+  <description>The obstacle_avoidance package</description>
+  <maintainer email="bwright5@vt.edu">Brian Wright</maintainer>	
+  <license>TODO</license>
+   <url type="website">https://github.com/CardatVT Obstacle_Avoidance</url> 
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+<build_depend>libopencv-dev</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>libuvc_camera</build_depend>
+  <build_depend>mavros</build_depend>
+  <build_depend>OpenCV</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+ <run_depend>libopencv-dev</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>libuvc_camera</run_depend>
+  <run_depend>mavros</run_depend>
+  <run_depend>OpenCV</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
