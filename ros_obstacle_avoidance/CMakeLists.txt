@@ -10,7 +10,6 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
   std_msgs
-
 )
 #must be seperate
 find_package( OpenCV REQUIRED )
@@ -53,6 +52,7 @@ include_directories(
 add_executable(obstacle_avoidance_node
 src/basic_shape_detector.cpp
 src/obstacle_avoidance.cpp
+src/color_object_detector.cpp
 )
 
 ## Add cmake target dependencies of the executable/library
